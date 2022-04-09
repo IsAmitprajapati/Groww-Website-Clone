@@ -188,3 +188,112 @@
     width: 400px;
     line-height: 30px;
 }
+
+/********************Our Product****************************************/
+.GrowwProduct{
+    margin:20px 100px;
+}
+.OurProduct_Text{
+    background-color:#ecedef;
+    color:#44475b;
+    letter-spacing: 0.3px;
+    font-size: 12px;
+    padding:5px 10px;
+    border-radius: 15px;
+    min-width: 50px;
+    width: fit-content;
+}
+.yourMoneyYourChoice_Text{
+    font-size: 35px;
+    color: #44475b;
+    line-height: 25px;
+    letter-spacing: .2px;
+    margin:30px 0px 70px 0px;
+}
+.GrowwProduct_Navbar{
+    display: flex;
+}
+.GrowwProduct_StocksDetails,
+.GrowwProduct_MutualFundsDetails,
+.GrowwProduct_UsStocksDetails,
+.GrowwProduct_FDsDetails{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 55px;
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+.GrowwProduct_StocksDetails > div,
+.GrowwProduct_MutualFundsDetails > div,
+.GrowwProduct_UsStocksDetails > div ,
+.GrowwProduct_FDsDetails > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 900;
+    color: #44475b;
+    margin: 0px 10px;
+}
+
+/***svg*****/
+.GrowwProduct_StocksDetails > svg,
+.GrowwProduct_MutualFundsDetails > svg,
+.GrowwProduct_UsStocksDetails > svg ,
+.GrowwProduct_FDsDetails > svg {
+    width: 30px;
+    height: 30px;
+    filter: grayscale(1);
+    padding:10px 0px;
+}
+
+.GrowwProduct_Display{
+    height: 355px;
+    margin: 100px 0px;
+}
+.ZeroText{
+    font-size: 80px;
+    font-weight: 900;
+}
+.GrowwProduct_StocksDetails_Display_RightPart h2{
+    font-size: 28px;
+    color:#323441;
+
+}
+.stocksDetails_Text{
+    font-size: 16px;
+    color:#7c7e8c;
+    line-height: 26px;
+    width: 400px;
+    margin: 20px 0px;
+}
+.GrowwProduct_Button_CreateAccountFree button{
+    width: 205px;
+    height: 45px;
+    color:white;
+    background: #00d09c;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 30px;
+}
+.GrowwProduct_StocksDetails_Display{
+    display: flex;
+    justify-content: space-evenly;
+}
+.veiwAllProduct_Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.veiwAllProduct_Container .text{
+    color:#00d09c;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+
