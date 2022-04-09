@@ -59,3 +59,132 @@
     border-radius: 5px;
     cursor: pointer;
 }
+
+/***************************************************************************************************/
+/*                                      middle_part                                                */
+/**************************************************************************************************/
+
+.Groww_Started_Container{
+    width: 362px;
+    height: 55px;
+}
+.Goww_StartedButton{
+    width: 200px;
+    height: 55px;
+    background-color: #00d09c;
+    border:none;
+    font-size: 20px;
+    color:white;
+    border-radius:5px;
+}
+
+.InvestIn{
+    display: flex;
+    font-size: 38px;
+    color:#44475b;
+    /* font-weight: 500; */
+}
+.Slidder_vertical{
+    text-indent: 15px;
+    height:60px;
+    display: flex;
+    flex-direction: column-reverse;
+    overflow: hidden;
+    
+}
+.Slidder_vertical span{
+    display: flex;
+    flex-direction: column;
+    animation:verticalSlide 7s infinite;
+    animation-delay: 3s;
+    position: relative;
+    height: 80px;
+}
+/****animation***************/
+@keyframes verticalSlide {
+      0%{
+            bottom:0px;
+      }
+      17%{
+            bottom:-70px;
+      }
+      34%{
+            bottom:-140px;
+      }
+      68%{
+          bottom: -210px;
+      }
+      85%{
+          bottom: -280px;
+      }
+      100%{
+          bottom:-350px
+      }
+         
+}
+/*color**/
+.Stocks_Color{
+    color:#5367ff;
+    padding-top:10px;
+    padding-bottom: 15px;
+}
+.MutualFunds_Color{
+    color:#00d09c;
+    padding-top:10px;
+    padding-bottom: 15px;
+}
+.FuturesOptions_Color{
+    color:#ffb61b;
+    padding-top:10px;
+    padding-bottom: 15px;
+}
+.UsStocks_Color{
+    color:#eb5b3c;
+    padding-top:10px;
+    padding-bottom: 15px;
+}
+.IPO_Color{
+    color:#d2ab66;
+    padding-top:10px;
+    padding-bottom: 15px;
+}
+.FDs_Color{
+    color:#5367ff;
+    padding-top:10px;
+    padding-bottom: 15px;
+}
+/******middle left side***/
+.Grow_middle_col2{
+    display: flex;
+}
+.Grow_middle_col2 a{
+    width:180px;
+    height: 140px;
+    box-shadow: 3px 6px 24px rgba(0,0,0,0.1);
+    border-radius: 20px;
+    margin-top:15px;
+    margin-bottom:15px;
+    margin-left:50px;
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-decoration: none;
+    color:#44475b;
+    background-color: #fff;
+}
+.middle_part{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    margin:30px 100px;
+}
+.Grow_Middle_Left_Text{
+    margin:30px 0px;
+    font-size: 18px;
+    color:#7c7e8c;
+    letter-spacing: 0.5px;
+    width: 400px;
+    line-height: 30px;
+}
