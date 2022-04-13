@@ -1,3 +1,6 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Corinthia:wght@700&family=Open+Sans:ital,wght@0,300;1,700&family=Source+Code+Pro:ital,wght@1,506&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Corinthia:wght@700&family=Open+Sans:ital,wght@0,300;1,700&family=Patua+One&family=Source+Code+Pro:ital,wght@1,506&display=swap'); */
+
 *{
     padding:0;
     margin:0;
@@ -257,6 +260,9 @@
 .ZeroText{
     font-size: 80px;
     font-weight: 900;
+    color:#323441;
+    letter-spacing: 1px;
+
 }
 .GrowwProduct_StocksDetails_Display_RightPart h2{
     font-size: 28px;
@@ -264,7 +270,7 @@
 
 }
 .stocksDetails_Text{
-    font-size: 16px;
+    font-size: 18px;
     color:#7c7e8c;
     line-height: 26px;
     width: 400px;
@@ -327,4 +333,4 @@
     background-color: #fae9e5;
 
 }
-
+/***************************************************************************************/
