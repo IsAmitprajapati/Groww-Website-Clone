@@ -3,29 +3,24 @@
 }
 
 /******our product hover effect************/
-.GrowwProduct_StocksDetails svg:hover{
+.GrowwProduct_StocksDetails:hover svg{
     filter : brightness();
     background-color: #e5faf5;
-    border-radius:300px;
-    padding:5px;
+   
 }
-.GrowwProduct_MutualFundsDetails svg:hover{
+.GrowwProduct_MutualFundsDetails:hover svg{
     filter: brightness();
     background-color: #eef0ff;
-    border-radius:300px;
-    padding:5px;
+    
 }
-.GrowwProduct_UsStocksDetails svg:hover{
+.GrowwProduct_UsStocksDetails:hover svg{
     filter:brightness();
     background-color: #fae9e5;
-    border-radius:300px;
-    padding:5px;
+    
 }
-.GrowwProduct_FDsDetails svg:hover{
+.GrowwProduct_FDsDetails:hover svg{
     filter:brightness();
     background-color: #fae9e5;
-    border-radius:300px;
-    padding:5px;
 
 }
 /**************view all product************/
