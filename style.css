@@ -521,3 +521,153 @@
     font-size: 16px;
     color: #7c7e8c;
 }
+/****************InvestAnyWhereContainer****************************************/
+.applist img{
+    width: 255px;
+    height: 360px;
+}
+.InvestAnyWhereContainer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.InvestAnyWhereContainer_Left_Text{
+    font-size: 50px;
+    width: 390px;
+    color:#323441;
+}
+.InvestAnyWhereContainer_Left p{
+    color:#7c7e8c;
+    font-size: 20px;
+    margin: 30px 0px;
+    width: 390px;
+}
+.ListContainer_List{
+    display: flex;
+    align-items: center;
+    margin: 30px 0px;
+}
+.ListContainer_Details_Heading_Description{
+    font-size: 18px;
+    margin: 20px 0px;
+    width: 250px;
+    color:#7c7e8c;
+}
+.ListContainer_Details_Heading{
+    font-size: 20px;
+    font-weight: 900;
+}
+.ListContainer_Details{
+    margin-left:40px;
+}
+.InvestAnyWhereContainer_Right{
+    display: flex;
+    align-items: center;
+}
+.applist{
+    margin:20px;
+}
+/********************************support******************************************/
+.SupportSection{
+    margin:100px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.SupportContainer{
+    background-color: #00d09c;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 1110px;
+    padding-top:40px;
+    
+}
+.SupportSection_left{
+    width: 500px;
+}
+.SupportSection_left h2{
+    font-size: 35px;
+    color:white;
+    margin:30px 0px;
+}
+.SupportSection_left p{
+    font-size: 17px;
+    width: 500px;
+    line-height: 30px;
+    color:white;
+
+}
+.SupportSection_left button{
+    width: 200px;
+    height: 50px;
+    border:none;
+    font-size: 18px;
+    color:#00d09c;
+    margin: 30px 0px;
+}
+.SupportSection_Right{
+    position: relative;
+    bottom: -4px;
+}
+/*******************FooterSection*******************************************************/
+.FooterSection{
+    background-color: #1e2232;
+    width: 100% auto;
+    height: 400px;
+    color:white;
+    padding-top:40px;
+}
+.row{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.FooterSection_Address1{
+    margin-top:25px;
+}
+.FooterSection_Address1,
+.FooterSection_Address2,
+.FooterSection_Address3{
+    font-size: 18px;
+}
+
+.FooterSection_Product h2,
+.FooterSection_Groww h2,
+.FooterSection_QuickLink h2{
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+
+.FooterSection_ProductList,
+.FooterSection_GrowwList,
+.FooterSection_QuickLinkList{
+    font-size: 18px;
+    line-height: 28px;
+}
+.FooterSection_ContactSocialMedia .ContactUs{
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+.SocialMedia_icon{
+    margin: 5px;
+}
+
+.horizontalLine{
+    height: 0.3px;
+    width: 85%;
+    background-color:#7c7e8c;
+    margin:30px 100px;
+}
+
+.GrowwApplicationDownload a{
+    margin-right:20px;
+}
+.GrowwFooterlast{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin:0px 100px;
+}
+

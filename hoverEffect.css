@@ -54,3 +54,8 @@
     10px 10px 15px rgba(0,0,0,0.1);
     cursor: pointer;
 }
+.applist:hover{
+    transform: skew(5deg,5deg);
+    cursor: pointer;
+    transition: 1s;
+}
