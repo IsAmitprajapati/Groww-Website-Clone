@@ -294,6 +294,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 100px 0px;
     
 }
 .veiwAllProduct_Container .text{
@@ -362,4 +363,161 @@
 
 .GrowwTrusted_right{
     width: 400px;
+}
+/*************************************************learning part*********************************/
+.GrowwLeaning_Image{
+    width: 350px;
+    height: 275px;
+    margin: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.GrowwLeaning_Image img{
+    width: 350px;
+    height: 275px;
+}
+.GrowwLearning_Container{
+    display: flex;
+    width: auto;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.GrowwLearningSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.GrowwLearning_Heading{
+    font-size: 35px;
+    font-weight: 900;
+    margin: 60px 0px;
+    color:#323441;
+}
+.GrowwLearning_Details{
+    font-size: 25px;
+    width: 350px;
+    text-align: center;
+    margin: 40px 0px;
+}
+.GrowwLearning_Container a{
+    text-decoration: none;
+    color: #323441;
+    font-weight: 500;
+}
+.GrowwLearning_moreSection a{
+    color: #00d09c;
+    text-decoration: none;
+    font-size: 18px;
+}
+.GrowwLearning_moreSection{
+    margin: 50px 0px;
+}
+/************In press section******************/
+.GrowwInPress_Name img{
+    width: 166px;
+    height: 88px;
+    filter: grayscale(1);
+}
+.GrowwInPress_Name{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 40px 0px;
+}
+.GrowwInPressSection_Heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.GrowwInPressSection_Heading hr{
+    width: 450px;
+    height: 0.5px;
+    background-color: rgb(231, 227, 227);
+    border:none;
+}
+.GrowwInpressSection_Text {
+    font-size: 45px;
+    color: #323441;
+    margin: 10px;
+}
+.GrowwInPressSection{
+    margin: 25px 0px;
+}
+/***************************GrowwInvestor*********************************/
+.GrowwInvestor{
+    margin: 80px 100px;
+}
+.GrowwInvestor_top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.headingandDetails h2{
+    font-size: 40px;
+    color: #44475b;
+}
+.headingandDetails p{
+    font-size: 20px;
+    color: #7c7e8c;
+    letter-spacing: 0.5px;
+}
+.GrowwInvestor_moreSection a{
+    color: #00d09c;
+    text-decoration: none;
+}
+.GrowwInvestor_top{
+    margin: 50px 0px;
+}
+
+.GrowwInvestor_ReviewsContainer{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.GrowwInvestor_ReviewBox{
+    width: 360px;
+    height: 400px;
+    margin:20px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 30px;
+}
+.GrowwInvestor_image{
+    width: 86px;
+    height: 60px;
+}
+.GrowwInvestor_image img{
+    width: 56px;
+    height: 60px;
+    border-radius: 60px;
+}
+.GrowwInvestor_Profile_star{
+    display: flex;
+    align-items: center;
+}
+.GrowwInvestor_Star i{
+    color:orange;
+}
+.GrowwInvestor_Telling{
+    width: 288px;
+    height: 180px;
+    margin: 20px 0px;
+}
+.GrowwInvestor_Telling p{
+    letter-spacing: 1px;
+    word-spacing: 1.5px;
+    font-size: 20px;
+    line-height: 35px;
+    color:#323441;
+}
+.GrowwInvestor_Name_profession{
+    margin: 25px 0px;
+}
+.GrowwInvestor_Name{
+    font-size: 20px;
+}
+.GrowwInvestor_Profession{
+    font-size: 16px;
+    color: #7c7e8c;
 }

@@ -28,3 +28,29 @@
     text-decoration: underline;
 }
 /******************************************************************************************************/
+.GrowwLeaning_Image:hover::before{
+    width: 350px;
+    height: 275px;
+    position: absolute;
+    content: "";
+    z-index: 20;
+    background-color: rgba(0,0,0,0.1);
+    border-radius: 10px;
+    overflow: hidden; 
+}
+.GrowwLearning_moreSection a:hover{
+    text-decoration: underline;    
+}
+/***************in the press************/
+.GrowwInPress_Name img:hover{
+    filter: brightness(1);
+}
+/***************************GrowwInvestor*********************************/
+.GrowwInvestor_moreSection a:hover{
+    text-decoration: underline;
+}
+.GrowwInvestor_ReviewBox:hover{
+    box-shadow: -10px -10px 15px rgba(0,0,0,0.1),
+    10px 10px 15px rgba(0,0,0,0.1);
+    cursor: pointer;
+}
