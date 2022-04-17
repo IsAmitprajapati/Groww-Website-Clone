@@ -1,0 +1,11 @@
+@keyframes AnitionWidth{
+    0%{
+        width: 0px;
+    }
+    50%{
+        width: 70px;
+    }
+    100%{
+        width: 0px;
+    }
+}
