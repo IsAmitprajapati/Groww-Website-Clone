@@ -81,6 +81,48 @@ Groww_LoginRegisterClick.addEventListener("click",()=>{
     LoginBodyRightGoogleConTainerText.textContent = "Continue with Google"
     LoginBodyRightGoogleConTainer.appendChild(LoginBodyRightGoogleConTainerText);
 
+        // horizonal line and text or 
+    let MainLinesection = document.createElement("div");
+    MainLinesection.classList.add( "MainLinesection");
+    LoginBodyRight.appendChild(MainLinesection)
+     
+    // horizontal line 1
+    let line1 = document.createElement("div");
+    line1.classList.add("HorizonalLIne");
+    MainLinesection.appendChild(line1)
+    // or text
+    let OrText = document.createElement("div");
+    OrText.classList.add( "ORtext");
+    OrText.textContent = "Or";
+    MainLinesection.appendChild(OrText)
+        // horizontal line 2
+    let line2 = document.createElement("div");
+    line2.classList.add("HorizonalLIne");
+    MainLinesection.appendChild(line2)
+
+    //Email container
+    let EmailContainer = document.createElement("div");
+    EmailContainer.className = "EmailContainer";
+    LoginBodyRight.appendChild(EmailContainer);
+    // email text 
+    let emailText = document.createElement("div");
+    emailText.textContent="Your Email Address";
+    emailText.className ="EmailText";
+    EmailContainer.appendChild(emailText);
+    //input text
+    let InputTextBox = document.createElement("input");
+    InputTextBox.className ="InputTextBox";
+    EmailContainer.appendChild(InputTextBox);
+
+
+    //button 
+    let button = document.createElement("div")
+    button.className="ContinueButton";
+    button.textContent="Continue";
+    LoginBodyRight.appendChild(button)
+
+
+
 
 
 

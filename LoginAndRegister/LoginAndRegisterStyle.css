@@ -87,3 +87,58 @@
     margin-top: 30px;
     font-size: 20px;
 }
+
+.HorizonalLIne{
+    height: 1px;
+    width: 70px;
+    background-color:#ccc;
+}
+.MainLinesection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.ORtext{
+    color:rgb(44, 44, 44);
+    font-size: 18px;
+}
+/**EmailContainer*********/
+.EmailContainer{
+    display: flex;
+    flex-direction: column;
+    margin:20px 50px 0px 50px;
+    padding:5px;
+    border-bottom: 1.5px solid #000;
+
+}
+.EmailText{
+    font-size: 18px;
+
+}
+.EmailContainer:focus-within{
+    color:#26d7ab;
+}
+.InputTextBox{
+    font-size: 18px;
+    border:none;
+    outline:none;
+    width: inherit;
+}
+.InputTextBox:focus{
+    border-bottom: 2px solid #26d7ab;
+    position: relative;
+    top:5px;
+}
+/**continue button*/
+.ContinueButton{
+    margin:20px 50px 0px 50px;
+    width:350px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #26d7ab;
+    color:white;
+    font-size: 18px;
+    border-radius: 5px;
+}
